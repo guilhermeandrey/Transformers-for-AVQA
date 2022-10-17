@@ -1,0 +1,11 @@
+# Using Transformers to blindly estimate audio-visual quality for video contents
+
+This repository contains the project implemented for my undergraduation in Electrical Engineering final thesis, with title "Using Transformers to blindly estimate audio-visual quality for video contents". The thesis is available on the file "Thesis.pdf", and the code was implemented in Python on Google Colab, available at [this link](https://colab.research.google.com/drive/1mKHiiJ8N9VXUowPJYHmluHTkadJfGti2?usp=sharing). The notebook is also available in the file "Transformer_for_AVQA.ipynb" in this repository for convenience.
+
+### Abstract
+In the latest years, the amount of multimedia content available on the Internet has increased abruptly with advances in transmission and compression technologies, and streaming platforms are responsible for great part of that volume of information. Transmitting data through wired or wireless networks causes distortion to the transmitted signal. Thus, the reliability in the quality of the transmitted data is essential for multimedia service providers, since this is an important factor in attracting customers for the provided service. Because of that, the need for efficient real-time quality monitoring tools is rapidly growing in the industry, leading to the demand of developing precise no-reference quality assessment methods for video contents.
+
+Currently, few methods using both audio and visual features of a video signal concurrently were proposed, notwithstanding that audio and video have important relationships that shape the Quality of Experience a user has when consuming video contents. This work proposes the use of the Transformer architecture to tackle the problem of no-reference audiovisual quality assessment. The proposed method uses a set of 115 audiovisual features from 800 videos obtained from a public database to predict quality. The model achieved poor results when compared to other metrics present in the literature, indicating that using tabular features in a Transformer architecture is not a good approach for this task. A discussion on the use of Transformers for this task and why they perform poorly on this kind of task is presented throughout this work, and possible alternatives for the combined audiovisual quality assessment problems are discussed.
+
+
+
